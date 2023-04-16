@@ -1,0 +1,88 @@
+This file will contain sorce code and attempts to do things it multiple languages.
+
+FP the lang developed by cameron stocks
+
+Attempts will be made in the following langauges:
+	C
+	C++
+	C#
+	Java
+	Python
+	(Maybe Assembly... i Dont know)
+
+
+Types:
+FP will contain the following types
+character				-> char
+string				-> str
+integer 				-> int
+floating point values 	-> float
+boolean 				-> bool
+
+Entry:
+	Possibly will be a main.
+
+pointers? maybe.
+
+syntax:
+
+loop syntax:
+	if statements:
+		if (cond) {}
+
+	while loops:
+		while (cond) {}
+
+	do-while -> exec_while
+		exec {} while(cond)
+		
+
+	for loops
+		for (int i = 0; i < n; i++) {}
+	or 
+		for (string s $ collection) {}
+
+
+var syntax:
+	All none segemented blocks will end in a semi-colon.
+	init:
+		[type] <name> = {val} ;
+	short-hand
+		[type] <name>;
+	
+function Syntax:
+	proc <name>() ~ [type] {}
+	proc main() ~ int {}
+	proc foo() ~ void {}
+
+AST -> Abstract Syntax Tree:
+	var -> 
+		name
+		type
+		val
+
+	proc ->
+		name
+		params
+		ret-type
+		body<sub_routines>
+
+Interpreted or Compiled?
+
+On Init:
+	Interpreted
+On Stable Parsing
+	Compiled
+
+Built-ins? 
+	Yes. Such as -> Print
+
+Removal of builtins?
+	Yes. Have prebuilt linking -> C Style
+
+Headers?
+	Maybe -> Like the Style
+
+Extensions ->
+	.fp -> code file
+	.fph -> Header
